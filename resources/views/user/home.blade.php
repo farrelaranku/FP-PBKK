@@ -51,6 +51,10 @@
 
             @auth
 
+            <li class="nav-item">
+              <a class="nav-link" style="background-color: greenyellow; color: whiteh" href="{{ 'myappointment' }}">My Appointment</a>
+            </li>
+
             <x-app-layout>
             </x-app-layout>
 
@@ -77,6 +81,9 @@
       </div> <!-- .container -->
     </nav>
   </header>
+
+
+ 
 
   <div class="page-hero bg-image overlay-dark" style="background-image: url(../assets/img/bg_image_1.jpg);">
     <div class="hero-section">
